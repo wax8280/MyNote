@@ -1,3 +1,4 @@
+# Linux
 ```
 $ cd ~/.ssh
 $ ls
@@ -9,4 +10,14 @@ $ clip < ~/.ssh/id_rsa.pub
 test
 $ ssh -T git@github.com
 ```
+
+# Windows
+
+```
+$ ssh-keygen -t rsa
+
+C:\Documents and Settings\username\\.ssh
+```
+
+
 
